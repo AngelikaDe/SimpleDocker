@@ -1,6 +1,3 @@
-# Simple Docker
-#### Introduction to docker. Developing a simple docker image for your own server.
-
 ## Part 1. Ready-made docker
 * Take the official docker image from nginx and download it using docker pull.
 [Part_1](screenshots/Part_1_1.png)
