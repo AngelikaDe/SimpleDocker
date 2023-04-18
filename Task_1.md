@@ -25,6 +25,6 @@
 ![Part_1](screenshots/Part_1_10.png)
 * Check in any way that the container is running
 ![Part_1](screenshots/Part_1_11.png)
---
+
 ## Part 2. Operations with container
 
