@@ -1,6 +1,6 @@
 ## Part 1. Ready-made docker
 * Take the official docker image from nginx and download it using docker pull.
-* [Part_1](screenshots/Part_1_1.png)
+[Part_1](screenshots/Part_1_1.png)
 * Run docker image with docker run -d [image_id|repository]
 [Part_1](screenshots/Part_1_2_1.png)
 [Part_1](screenshots/Part_1_2_2.png)
