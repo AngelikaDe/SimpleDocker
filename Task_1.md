@@ -28,3 +28,26 @@
 
 ## Part 2. Operations with container
 
+
+
+## Part 3. Mini web server
+### Aim: Write a mini server in C and FastCgi that will return a simple page saying Hello World!
+
+* Run container based on nginx image. Name of the container - `server`
+![Part_3](screenshots/Part_3_1.png)
+* Make worling directory `server` and update apt-get inside the container
+![Part_3](screenshots/Part_3_2.png)
+* Install spawn-fcgi and libfcgi-dev
+![Part_3](screenshots/Part_3_3.png)
+* Copying main.c and nginx.conf into out container
+![Part_3](screenshots/Part_3_4.png)
+* Compile main.c
+![Part_3](screenshots/Part_3_5.png)
+* Reload nginx
+![Part_3](screenshots/Part_3_6.png)
+* ???
+![Part_3](screenshots/Part_3_7.png)
+* Check localhost
+![Part_3](screenshots/Part_3_8.png)
+
+## Part 4. Your own docker
