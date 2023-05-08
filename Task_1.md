@@ -87,3 +87,29 @@
 * Check that localhost:80/status now returns a page with nginx status
 ![Part_2](screenshots/Part_2_11.png)
 
+## Part 5. Dockle
+* Install dockle
+![Part_5](screenshots/Part_5_1.png)
+![Part_5](screenshots/Part_5_1_1.png)
+* Check the image from the previous task with dockle [image_id|repository]
+![Part_5](screenshots/Part_5_2.png)
+* Fix the image so that there are no errors or warnings when checking with dockle
+![Part_5](screenshots/Part_5_3.png)
+
+
+## Part 6. Basic Docker Compose
+
+* Install docker-compose
+![Part_6](screenshots/Part_6_0.png)
+
+* Write a docker-compose.yml file, using which:
+    1) Start the docker container from Part 5 (it must work on local network, i.e., you don't need to use EXPOSE instruction and map ports to local machine)
+
+
+    2) Start the docker container with nginx which will proxy all requests from port 8080 to port 81 of the first container 
+![Part_6](screenshots/Part_6_1.png)
+![Part_6](screenshots/Part_6_1_1.png)
+* Build and run the project with the docker-compose build and docker-compose up commands
+![Part_6](screenshots/Part_6_3.png)
+![Part_6](screenshots/Part_6_3_1.png)
+* Check that the browser returns the page you wrote on localhost:80 as before![Part_6](screenshots/Part_6_4.png)
