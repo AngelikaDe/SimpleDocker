@@ -28,7 +28,28 @@
 
 ## Part 2. Operations with container
 
-
+* Read the nginx.conf configuration file inside the docker container with the exec command
+![Part_2](screenshots/Part_2_1.png)
+* Create a nginx.conf file on a local machine + Configure it on the /status path to return the nginx server status page
+![Part_2](screenshots/Part_2_2.png)
+* Copy the created nginx.conf file inside the docker image using the docker cp command + Restart nginx inside the docker image with exec
+![Part_2](screenshots/Part_2_3.png)
+* Check that localhost:80/status returns the nginx server status page
+![Part_2](screenshots/Part_2_4.png)
+* Export the container to a container.tar file with the export command
+![Part_2](screenshots/Part_2_5.png)
+* Stop the container
+![Part_2](screenshots/Part_2_6.png)
+* Delete the image with docker rmi [image_id|repository]without removing the container first
+![Part_2](screenshots/Part_2_7.png)
+* Delete stopped container
+![Part_2](screenshots/Part_2_8.png)
+* Import the container back using the `import` command
+![Part_2](screenshots/Part_2_9.png)
+* Run the imported container
+![Part_2](screenshots/Part_2_10.png)
+* Check that localhost:80/status returns the nginx server status page
+![Part_2](screenshots/Part_2_11.png)
 
 ## Part 3. Mini web server
 ### Aim: Write a mini server in C and FastCgi that will return a simple page saying Hello World!
