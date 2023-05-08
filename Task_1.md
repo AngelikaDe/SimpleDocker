@@ -72,3 +72,18 @@
 ![Part_3](screenshots/Part_3_8.png)
 
 ## Part 4. Your own docker
+* docker image that: 
+    1) builds mini server sources on FastCgi from Part 3
+    2) runs it on port 8080
+    3) copies inside the image written ./nginx/nginx.conf
+    4) runs nginx.
+![Part_4](screenshots/Part_4_1.png)
+* Build the written docker image with docker build, specifying the name and tag
+![Part_4](screenshots/Part_4_2.png)
+* Check that everything is built correctly
+![Part_4](screenshots/Part_4_3.png)
+* Check that the page of the written mini server is available on localhost:80
+![Part_4](screenshots/Part_4_6.png)
+* Check that localhost:80/status now returns a page with nginx status
+![Part_2](screenshots/Part_2_11.png)
+
