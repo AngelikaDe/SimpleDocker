@@ -8,7 +8,7 @@
 ![Part_1](screenshots/Part_1_3.png)
 * View container information with docker inspect [container_id|container_name]
 ![Part_1](screenshots/Part_1_4.png)
-* From the command output define and write in the report the container size, list of mapped ports and container ip
+* From the command outpuft define and write in the report the container size, list of mapped ports and container ip
 ![Part_1](screenshots/Part_1_5_1.png)
 ![Part_1](screenshots/Part_1_5_2.png)
 ![Part_1](screenshots/Part_1_5_3.png)
@@ -66,7 +66,7 @@
 ![Part_3](screenshots/Part_3_5.png)
 * Reload nginx
 ![Part_3](screenshots/Part_3_6.png)
-* ???
+* Run the written mini server via spawn-fcgi on port 8080
 ![Part_3](screenshots/Part_3_7.png)
 * Check localhost
 ![Part_3](screenshots/Part_3_8.png)
