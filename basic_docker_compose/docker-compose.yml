@@ -1,0 +1,17 @@
+version: "3"
+services:
+    server_local:
+      build:
+        context: .
+        dockerfile: Dockerfile
+      container_name: n_server1
+      volumes:
+        - ./nginx.conf:/etc/ninx/nginx.conf
+
+    nginx_serv:
+    image: nginx:latest
+    container_name: nginx_serv
+    ports:
+      - 80:8080
+    volumes:
+      - - ./proxy_ng.conf:/etc/ninx/nginx.conf
